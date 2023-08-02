@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        video {
+            width: 500px;
+            height: 500px;
+
+        }
+    </style>
+    <title>You Are An Idiot</title>
+</head>
+<body>
+    <center>
+        <video src="1.mp4" autoplay muted loop></video>
+        <audio id="myAudio" autoplay loop>
+            <source src="2.mp3">
+        </audio>
+    </center>
+
+    <script>
+        const myAudio = document.getElementById('myAudio');
+        myAudio.play();
+    </script>
+</body>
+</html>
